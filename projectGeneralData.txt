@@ -1,0 +1,9 @@
+C/C++ -> General -> Additional Include: C:\Program Files\Autodesk\Maya2015\include
+
+C/C++ -> Preprocessor -> Preprocessor Definitions: WIN32;NDEBUG;_WINDOWS;NT_PLUGIN;REQUIRE_IOSTREAM
+
+Linker -> General -> Additional Library Directories: C:\Program Files\Autodesk\Maya2015\lib
+
+Linker -> Command Lines- Additional Options: /export:initializePlugin /export:uninitializePlugin
+
+Linker -> Input -> Additional Dependencies: Foundation.lib;OpenMaya.lib;OpenMayaUI.lib;OpenMayaAnim.lib;OpenMayaFX.lib;OpenMayaRender.lib;Image.lib;opengl32.lib;glu32.lib
